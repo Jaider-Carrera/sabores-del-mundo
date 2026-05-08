@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+/* Barra de navegación */
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  background: #ff6600;
+  padding: 15px;
+  margin: 0;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #ff6600;
+}
+
+/* Cajas Home */
+.caja {
+  background: #e6f2ff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Galería de productos */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.galeria img {
+  width: 200px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Video */
+.video {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Formulario */
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+button:hover {
+  background: #e65c00;
+}
